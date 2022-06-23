@@ -10,7 +10,7 @@ def mysql_execute(query, database):
         connection = mysql.connector.connect(host='localhost',
                                              database=database,
                                              user='root',
-                                             password='Ananya30')
+                                             password='#########')
 
         cursor_conn = connection.cursor()
         print(query)
