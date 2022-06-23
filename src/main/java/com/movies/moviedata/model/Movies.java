@@ -14,7 +14,7 @@ public class Movies {
     private Double budget;
     private Double revenue;
     private Double runTimeDuration;
-    private Long originalLanguageId;
+    private String originalLanguageId;
     private Long averageRating;
     private Long productionCompanyId;
 
@@ -59,11 +59,11 @@ public class Movies {
         this.runTimeDuration = runTimeDuration;
     }
 
-    public Long getOriginalLanguageId() {
+    public String getOriginalLanguageId() {
         return originalLanguageId;
     }
 
-    public void setOriginalLanguageId(Long originalLanguageId) {
+    public void setOriginalLanguageId(String originalLanguageId) {
         this.originalLanguageId = originalLanguageId;
     }
 
