@@ -1,5 +1,5 @@
 # MovieDataRepo
-This is a repo which is a basic API Design using the Kaggle Dataset for Movies. It answers the following questions:
+This is an application which is a basic Spring Web API designed using the Kaggle Dataset for Movies. It answers the following questions:
 
 1. Production Company Details: The endpoint should be able to take a production_id as a query param and a year as a query param budget per year revenue per year
 2. Movie Genre Details: The endpoint should be able to take a year as a query param most popular genre by year
